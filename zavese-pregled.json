@@ -1,0 +1,106 @@
+[
+  {
+    "ident": "08VNT000001",
+    "naziv": "VAZDUŠNA ZAVESA VENTING RM-1008-D-Y-1",
+    "model": "RM-1008-D-Y-1",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE SA GREJAČIMA",
+    "zaWeb": "F",
+    "slika": "08VNT000001.jpg"
+  },
+  {
+    "ident": "08VNT000002",
+    "naziv": "VAZDUŠNA ZAVESA VENTING FM3010-Y-1-S",
+    "model": "",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE BEZ GREJAČA",
+    "zaWeb": "F",
+    "slika": ""
+  },
+  {
+    "ident": "08VNT000003",
+    "naziv": "VAZDUŠNA ZAVESA VENTING FM3012-Y-1-S",
+    "model": " FM3012-Y-1-S",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE BEZ GREJAČA",
+    "zaWeb": "T",
+    "slika": "08VNT000003.jpg"
+  },
+  {
+    "ident": "08VNT000004",
+    "naziv": "VAZDUŠNA ZAVESA VENTING FM1515-Y-1-L",
+    "model": "FM1515-Y-1-L",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE SA GREJAČIMA",
+    "zaWeb": "F",
+    "slika": ""
+  },
+  {
+    "ident": "08VNT000005",
+    "naziv": "VAZDUŠNA ZAVESA VENTING FM3510CS",
+    "model": "FM3510CS",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE BEZ GREJAČA",
+    "zaWeb": "T",
+    "slika": "08VNT000005.jpg"
+  },
+  {
+    "ident": "08VNT000006",
+    "naziv": "VAZDUŠNA ZAVESA VENTING RM125-09-D/Y-B1S",
+    "model": "RM125-09-D/Y-B1S",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE SA GREJAČIMA",
+    "zaWeb": "F",
+    "slika": ""
+  },
+  {
+    "ident": "08VNT000007",
+    "naziv": "VAZDUŠNA ZAVESA VENTING RM125-10-D/Y-B2S",
+    "model": " RM125-10-D/Y-B2S",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE SA GREJAČIMA",
+    "zaWeb": "F",
+    "slika": ""
+  },
+  {
+    "ident": "08VNT000008",
+    "naziv": "VAZDUŠNA ZAVESA VENTING RM125-12-D/Y-B-2-S",
+    "model": "RM125-12-D/Y-B-2-S",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE SA GREJAČIMA",
+    "zaWeb": "F",
+    "slika": ""
+  },
+  {
+    "ident": "08VNT000009",
+    "naziv": "VAZDUŠNA ZAVESA VENTING RM-1515-3D/Y-1",
+    "model": "RM-1515-3D/Y-1",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE SA GREJAČIMA",
+    "zaWeb": "F",
+    "slika": ""
+  },
+  {
+    "ident": "POLUR000026",
+    "naziv": "VAZDUŠNA ZAVESA VENTING FM3012-Y-1-S",
+    "model": "U",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE SA GREJAČIMA",
+    "zaWeb": "F",
+    "slika": ""
+  },
+  {
+    "ident": "POLUR000500",
+    "naziv": "VAZDUŠNA ZAVESA VENTING FM3012-Y-1-S.1",
+    "model": "U",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE SA GREJAČIMA",
+    "zaWeb": "F",
+    "slika": ""
+  },
+  {
+    "ident": "POLUR000504",
+    "naziv": "VAZDUŠNA ZAVESA VENTING RM125-10-D/Y-B2S HLADNA",
+    "model": " RM125-10-D/Y-B2S",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE SA GREJAČIMA",
+    "zaWeb": "F",
+    "slika": ""
+  },
+  {
+    "ident": "POLUR000505",
+    "naziv": "VAZDUŠNA ZAVESA VENTING RM125-09-D/Y-B1S",
+    "model": "",
+    "podgrupa": "VAZDUŠNE ZAVESE ELEKTRIČNE SA GREJAČIMA",
+    "zaWeb": "F",
+    "slika": ""
+  }
+]

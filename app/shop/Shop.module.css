@@ -97,9 +97,9 @@
 
 .tabs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin-bottom: 56px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 36px;
 }
 
 .tab {
@@ -123,8 +123,8 @@
 }
 
 .tab:hover {
-  background: #edf1f5;
-  border-color: #c8d4de;
+  background: #fffafa;
+  border-color: #e07a73;
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
@@ -159,9 +159,14 @@
 /* Product grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   align-items: stretch;
+}
+
+/* Manji laptopovi: 3 u redu */
+@media (max-width: 1100px) {
+  .grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 /* Card item */
@@ -190,15 +195,15 @@
 }
 
 .item:hover .card {
-  background: #edf1f5;
-  border-color: #c8d4de;
+  background: #fffafa;
+  border-color: #e07a73;
   transform: translateY(-8px);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.10);
 }
 
 /* Card content */
 .inner {
-  padding: 36px 24px 28px;
+  padding: 26px 18px 22px;
   text-align: center;
   flex: 1;
   display: flex;
@@ -209,7 +214,7 @@
 /* Product name */
 .code {
   font-weight: 700;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.25;
   color: #0c0c0d;
   margin: 0 0 20px;
@@ -219,7 +224,7 @@
 /* Image */
 .imageWrap {
   position: relative;
-  height: 200px;
+  height: 160px;
   width: 100%;
   margin-bottom: 18px;
 }
@@ -366,7 +371,7 @@
   color: #0c0c0d;
   background: #fff;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
   font-family: inherit;
 }
 
@@ -374,9 +379,13 @@
   color: #9ca3af;
 }
 
+.searchInput:hover {
+  border-color: #e8b4b0;
+}
+
 .searchInput:focus {
-  border-color: #c8d4de;
-  box-shadow: 0 0 0 3px rgba(12, 12, 13, 0.05);
+  border-color: #c0392f;
+  box-shadow: 0 0 0 3px rgba(192, 57, 47, 0.08);
 }
 
 .searchClear {
@@ -438,8 +447,9 @@
 }
 
 .pageBtn:hover:not(:disabled) {
-  background: #f3f4f6;
-  border-color: #d1d5db;
+  background: #fffafa;
+  border-color: #e07a73;
+  color: #c0392f;
 }
 
 .pageBtn:disabled {
@@ -507,7 +517,7 @@
   }
 
   /* Tabs: horizontal scroll rail of pill buttons */
-  .tabs {
+    .tabs {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -601,7 +611,7 @@
   align-items: center;
   gap: 9px;
   background: #fff;
-  border: 1.5px solid #e3e9ef;
+  border: 1.5px solid #f0d9d6;
   border-radius: 11px;
   padding: 10px 16px;
   font-family: inherit;
@@ -609,14 +619,17 @@
   font-weight: 700;
   color: #0c0c0d;
   cursor: pointer;
-  transition: border-color 0.18s ease, background 0.18s ease;
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
 }
 
 .filterToggle:hover {
-  border-color: #c7d2dc;
+  background: #fffafa;
+  border-color: #e07a73;
+  color: #c0392f;
 }
 
-.filterToggleOpen {
+.filterToggleOpen,
+.filterToggleOpen:hover {
   background: #0f1216;
   border-color: #0f1216;
   color: #fff;
@@ -665,7 +678,7 @@
 }
 
 .filterReset:hover {
-  color: #0c0c0d;
+  color: #c0392f;
 }
 
 .filterCount {
@@ -680,8 +693,8 @@
 .filterPanel {
   margin: 0 0 26px;
   padding: 20px 24px 22px;
-  background: #f7f9fb;
-  border: 1px solid #e9eef3;
+  background: #fdf5f4;
+  border: 1px solid #f6e3e1;
   border-radius: 14px;
   display: flex;
   flex-direction: column;
@@ -713,7 +726,7 @@
   align-items: center;
   gap: 7px;
   background: #fff;
-  border: 1.5px solid #e3e9ef;
+  border: 1.5px solid #f0d9d6;
   border-radius: 999px;
   padding: 8px 14px;
   font-family: inherit;
@@ -725,8 +738,9 @@
 }
 
 .chip:hover {
-  border-color: #b9c5d1;
-  color: #0c0c0d;
+  background: #fffafa;
+  border-color: #e07a73;
+  color: #c0392f;
 }
 
 .chipOn {
@@ -737,18 +751,23 @@
 
 /* mora posle .chip:hover - inače hover oboji tekst u crno na crnoj podlozi */
 .chipOn:hover {
-  background: #2a3038;
-  border-color: #2a3038;
+  background: #2a2b2e;
+  border-color: #2a2b2e;
   color: #fff;
 }
 
 .chipCount {
   font-size: 11px;
   font-weight: 600;
-  color: #9aa4b0;
+  color: #b8a5a2;
 }
 
-.chipOn .chipCount {
+.chip:hover .chipCount {
+  color: #e07a73;
+}
+
+.chipOn .chipCount,
+.chipOn:hover .chipCount {
   color: rgba(255, 255, 255, 0.55);
 }
 
@@ -760,4 +779,33 @@
   .filterCount {
     font-size: 12px;
   }
+}
+
+/* Povratak sa stranice proizvoda: kartica polako gubi hover */
+.returning .card {
+  animation: cardUnhover 0.8s ease;
+}
+
+.returning .imageWrap img {
+  animation: imgUnhover 0.8s ease;
+}
+
+@keyframes cardUnhover {
+  from {
+    background: #fffafa;
+    border-color: #e07a73;
+    transform: translateY(-8px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.10);
+  }
+  to {
+    background: #fff;
+    border-color: #edf1f5;
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+@keyframes imgUnhover {
+  from { transform: scale(1.04); }
+  to   { transform: scale(1); }
 }

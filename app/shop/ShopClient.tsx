@@ -15,6 +15,7 @@ type ShopFilter = {
   options: FilterOption[]
 }
 import styles from './Shop.module.css'
+import Reveal from '@/components/Reveal'
 
 // Index = activeTab + 1 (0 = all, 1-5 = tabs 0-4)
 // indeks = activeTab + 1 (tab -1 = svi proizvodi)
@@ -245,25 +246,39 @@ function ImagePlaceholder() {
 
 /* Main */
 
-interface Props { products: Product[] }
+interface Props { products: Product[]; initialTab?: number; initialPage?: number }
 
 const PAGE_SIZE = 24
 
-export default function ShopClient({ products }: Props) {
+export default function ShopClient({ products, initialTab = -1, initialPage = 1 }: Props) {
   const { t, locale } = useLanguage()
-  const [activeTab, setActiveTab] = useState(-1)
-  const [page, setPage] = useState(1)
+  const [activeTab, setActiveTab] = useState(initialTab)
+  const [page, setPage] = useState(initialPage)
   const [search, setSearch] = useState('')
   const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({})
   const [filtersOpen, setFiltersOpen] = useState(false)
   const tabsRef = useRef<HTMLDivElement>(null)
   const tabButtonRefs = useRef<(HTMLButtonElement | null)[]>([])
   const productsRef = useRef<HTMLElement>(null)
-
+  
+  /* Povratak sa stranice proizvoda: kartica na koju je kliknuto polako gubi hover */
+  const [returningId, setReturningId] = useState<string | null>(null)
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search)
-    const tab = params.get('tab')
-    if (tab !== null) setActiveTab(parseInt(tab, 10))
+    const check = (fromBack: boolean) => {
+      try {
+        const id = sessionStorage.getItem('shop-last-product')
+        if (!id) return
+        sessionStorage.removeItem('shop-last-product')
+        const nav = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming | undefined
+        if (!fromBack && nav?.type !== 'back_forward') return
+        setReturningId(id)
+        setTimeout(() => setReturningId(null), 1000)
+      } catch {}
+    }
+    check(false)
+    const onShow = (e: PageTransitionEvent) => { if (e.persisted) check(true) }
+    window.addEventListener('pageshow', onShow)
+    return () => window.removeEventListener('pageshow', onShow)
   }, [])
 
   // Scroll active tab pill into center on mobile
@@ -309,9 +324,19 @@ export default function ShopClient({ products }: Props) {
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE)
   const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
 
+    // Izabrana kategorija i stranica se upisuju u adresu, da dugme Nazad vrati na isto mesto
+  function updateUrl(tab: number, pg: number) {
+    const params = new URLSearchParams()
+    if (tab >= 0) params.set('tab', String(tab))
+    if (pg > 1) params.set('page', String(pg))
+    const qs = params.toString()
+    window.history.replaceState(window.history.state, '', qs ? `/shop?${qs}` : '/shop')
+  }
+
   function changeTab(tab: number) {
     setActiveTab(tab)
     setPage(1)
+    updateUrl(tab, 1)
     setSearch('')
     setActiveFilters({})
   }
@@ -328,8 +353,9 @@ export default function ShopClient({ products }: Props) {
     setPage(1)
   }
 
-  function changePage(next: number) {
+   function changePage(next: number) {
     setPage(next)
+    updateUrl(activeTab, next)
     productsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
@@ -457,7 +483,13 @@ export default function ShopClient({ products }: Props) {
             {paginated.map((product) => {
               const specs = pickCardSpecs(product)
               return (
-                <a key={product.id} href={`/product/${product.id}`} className={styles.item}>
+                <Reveal key={product.id} className="h-full">
+                <a
+                  href={`/product/${product.id}`}
+                  className={`${styles.item} ${returningId === String(product.id) ? styles.returning : ''}`}
+                  onClick={() => { try { sessionStorage.setItem('shop-last-product', String(product.id)) } catch {} }}
+                >
+
                   <div className={styles.card}>
                     <div className={styles.inner}>
                       <h3 className={styles.code}>{product.name || product.id}</h3>
@@ -494,14 +526,10 @@ export default function ShopClient({ products }: Props) {
                       )}
                     </div>
 
-                    <div className={styles.actionBar}>
-                      <span className={styles.actionBtn}>
-                        <ArrowIcon />
-                        {t.learnMore}
-                      </span>
-                    </div>
+                   
                   </div>
                 </a>
+                </Reveal>
               )
             })}
           </div>

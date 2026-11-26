@@ -107,6 +107,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Uputstvo za upotrebu",
+          "file": "Uputstvo za upotrebu prozorskog klima uredjaja WHM , WFM1_RNH1.pdf"
+        },
+        {
+          "title": "DOC",
+          "file": "DOC VENTING WINDOW.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "WFM Izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -215,6 +229,20 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Uputstvo za upotrebu prozorskog klima uredjaja WHM , WFM1_RNH1.pdf"
+        },
+        {
+          "title": "DOC",
+          "file": "DOC VENTING WINDOW.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "WFM Izvod iz kataloga.pdf"
         }
       ]
     },
@@ -325,6 +353,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Uputstvo za upotrebu prozorskog klima uredjaja WHM , WFM1_RNH1.pdf"
+        },
+        {
+          "title": "DOC",
+          "file": "DOC VENTING WINDOW.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "WFM Izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -338,7 +380,7 @@
       "subcategoryName": "SPLIT SJ",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2024-07-17T17:37:52.610Z",
+      "lastUpdated": "2026-10-29T12:49:33.413Z",
       "image": "/images/products/univerzalna-spoljna-jedinica-r32.jpg",
       "description": "",
       "energyClass": "",
@@ -857,7 +899,8 @@
           "basic": false,
           "order": 700
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "01KLK001773",
@@ -1001,6 +1044,20 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Korisničko uputstvo prevod (1) VSAFBU.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC srpski VSAFBU-09HRD1M8 & VSAFBU-12HRD1M8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga VSAF novi.pdf"
         }
       ]
     },
@@ -1147,6 +1204,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga VSAF novi.pdf"
+        },
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Korisničko uputstvo prevod (1) VSAFBU.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC srpski VSAFBU-09HRD1M8 & VSAFBU-12HRD1M8.pdf"
+        }
       ]
     },
     {
@@ -1160,7 +1231,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2025-09-23T08:30:10.213Z",
+      "lastUpdated": "2026-11-10T12:35:53.573Z",
       "image": "/images/products/vac-r32-inverter-t-elite-xa41.jpg",
       "description": "",
       "energyClass": "",
@@ -1292,6 +1363,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisnicko uputstvo",
+          "file": "Korisnicko uputstvo za klima uređaje.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC prevod T-Elite XA41-I.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga T-Elite XA41-I.pdf"
+        }
       ]
     },
     {
@@ -1305,7 +1390,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2025-09-22T08:52:36.070Z",
+      "lastUpdated": "2026-11-10T12:36:10.090Z",
       "image": "/images/products/vac-r32-inverter-t-elite-xa41.jpg",
       "description": "",
       "energyClass": "",
@@ -1437,6 +1522,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisnicko uputstvo",
+          "file": "Korisnicko uputstvo za klima uređaje.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC prevod T-Elite XA41-I.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga T-Elite XA41-I.pdf"
+        }
       ]
     },
     {
@@ -1450,7 +1549,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2026-01-13T08:31:00.183Z",
+      "lastUpdated": "2026-11-10T12:36:20.947Z",
       "image": "/images/products/vac-r32-inverter-t-elite-xa41.jpg",
       "description": "",
       "energyClass": "",
@@ -1582,6 +1681,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisnicko uputstvo",
+          "file": "Korisnicko uputstvo za klima uređaje.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC prevod T-Elite XA41-I.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga T-Elite XA41-I.pdf"
+        }
       ]
     },
     {
@@ -1595,7 +1708,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2025-08-12T21:54:01.037Z",
+      "lastUpdated": "2026-11-10T12:37:35.873Z",
       "image": "/images/products/vac-r32-inverter-t-elite-xa41.jpg",
       "description": "",
       "energyClass": "",
@@ -1727,6 +1840,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisnicko uputstvo",
+          "file": "Korisnicko uputstvo za klima uređaje.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC prevod T-Elite XA41-I.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga T-Elite XA41-I.pdf"
+        }
       ]
     },
     {
@@ -1740,7 +1867,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "8606111605176",
       "inStock": false,
-      "lastUpdated": "2025-08-12T21:59:17.270Z",
+      "lastUpdated": "2026-10-29T12:48:36.193Z",
       "image": "/images/products/t-pro-nordic-tp31.jpg",
       "description": "",
       "energyClass": "",
@@ -1872,6 +1999,24 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Korisničko uputstvo.pdf"
+        },
+        {
+          "title": "Korisničko uputstvo za Wi-fi",
+          "file": "Korisničko uputstvo za Wi-fi.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC prevod  T-Pro Nordic.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga T-Pro Nordic.pdf"
+        }
       ]
     },
     {
@@ -1885,7 +2030,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2026-07-23T10:23:08.123Z",
+      "lastUpdated": "2026-10-29T12:50:35.070Z",
       "image": "/images/products/t-pro-nordic-tp31.jpg",
       "description": "",
       "energyClass": "",
@@ -2017,6 +2162,24 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Korisničko uputstvo.pdf"
+        },
+        {
+          "title": "Korisničko uputstvo za Wi-fi",
+          "file": "Korisničko uputstvo za Wi-fi.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC prevod  T-Pro Nordic.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga T-Pro Nordic.pdf"
+        }
       ]
     },
     {
@@ -2030,7 +2193,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "8606111605190",
       "inStock": false,
-      "lastUpdated": "2026-07-23T10:24:08.677Z",
+      "lastUpdated": "2026-10-29T12:51:18.930Z",
       "image": "/images/products/t-pro-nordic-tp31.jpg",
       "description": "",
       "energyClass": "",
@@ -2162,6 +2325,24 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Korisničko uputstvo.pdf"
+        },
+        {
+          "title": "Korisničko uputstvo za Wi-fi",
+          "file": "Korisničko uputstvo za Wi-fi.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC prevod  T-Pro Nordic.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga T-Pro Nordic.pdf"
+        }
       ]
     },
     {
@@ -2175,7 +2356,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "8606111605206",
       "inStock": false,
-      "lastUpdated": "2026-07-23T10:24:34.980Z",
+      "lastUpdated": "2026-10-29T12:53:41.860Z",
       "image": "/images/products/t-pro-nordic-tp31.jpg",
       "description": "",
       "energyClass": "",
@@ -2306,6 +2487,24 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Korisničko uputstvo.pdf"
+        },
+        {
+          "title": "Korisničko uputstvo za Wi-fi",
+          "file": "Korisničko uputstvo za Wi-fi.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC prevod  T-Pro Nordic.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga T-Pro Nordic.pdf"
         }
       ]
     },
@@ -2452,6 +2651,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC prevod VSAFCU-18HRF1M8, VSAFDU-24HRF1M8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga VSAF NOVI.pdf"
+        }
       ]
     },
     {
@@ -2596,6 +2805,16 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC VSAFCU-18HRF1M8 i VSAFDU-24HRF1M8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga VSAF NOVI.pdf"
         }
       ]
     },
@@ -2742,6 +2961,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Korisničko uputstvo.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "Declaration of conformity.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Flajer XA82-I3.pdf"
+        }
       ]
     },
     {
@@ -2886,6 +3119,20 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Flajer XA82-I3.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "Declaration of conformity.pdf"
+        },
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Korisničko uputstvo.pdf"
         }
       ]
     },
@@ -3032,6 +3279,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "Declaration of conformity.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Flajer XA82-I3.pdf"
+        },
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Korisničko uputstvo.pdf"
+        }
       ]
     },
     {
@@ -3177,6 +3438,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VAC-09CHSDIzvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -3190,7 +3461,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2026-09-10T13:47:42.407Z",
+      "lastUpdated": "2026-10-15T09:27:53.630Z",
       "image": "/images/products/inverter-xab1.jpg",
       "description": "",
       "energyClass": "",
@@ -3322,6 +3593,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC prevod.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VAC-09CHSDIzvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -3335,7 +3616,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2026-07-17T16:15:48.450Z",
+      "lastUpdated": "2026-09-28T12:07:41.050Z",
       "image": "/images/products/inverter-xab1.jpg",
       "description": "",
       "energyClass": "",
@@ -3466,6 +3747,16 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC prevod.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VAC-09CHSDIzvod iz kataloga.pdf"
         }
       ]
     },
@@ -3612,6 +3903,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC prevod.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VAC-09CHSDIzvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -3756,6 +4057,16 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Glory Plus i Glory Pro.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VSGPAU izvod iz kataloga.pdf"
         }
       ]
     },
@@ -3902,6 +4213,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Glory Plus i Glory Pro.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VSGPAU izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -4046,6 +4367,16 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Glory Plus i Glory Pro.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VSGPAU izvod iz kataloga.pdf"
         }
       ]
     },
@@ -4192,7 +4523,8 @@
           "basic": false,
           "order": 9999
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "01KLK001913",
@@ -4337,6 +4669,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Glory Plus i Glory Pro.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VSGPAU izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -4350,7 +4692,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2026-07-22T15:49:21.367Z",
+      "lastUpdated": "2026-11-04T08:14:57.587Z",
       "image": "/images/products/glory-plus.jpg",
       "description": "",
       "energyClass": "",
@@ -4481,6 +4823,16 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Glory Plus i Glory Pro.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VSGPAU izvod iz kataloga.pdf"
         }
       ]
     },
@@ -4627,6 +4979,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Glory Plus i Glory Pro.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VSGPAU izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -4772,6 +5134,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Glory Plus i Glory Pro.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VSGPAU izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -4785,7 +5157,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2026-07-23T10:13:00.077Z",
+      "lastUpdated": "2026-10-21T12:11:47.200Z",
       "image": "/images/products/t-pro-nordic-tp31.jpg",
       "description": "",
       "energyClass": "",
@@ -4917,6 +5289,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC prevod.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VAC izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -4930,7 +5312,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2026-07-23T10:13:32.323Z",
+      "lastUpdated": "2026-11-10T12:42:03.447Z",
       "image": "/images/products/t-pro-nordic-tp31.jpg",
       "description": "",
       "energyClass": "",
@@ -5062,6 +5444,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC prevod.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga VAC-09-24CHSDTP31-B Nordic.pdf"
+        }
       ]
     },
     {
@@ -5075,7 +5467,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2026-07-22T09:11:27.843Z",
+      "lastUpdated": "2026-11-10T12:38:43.627Z",
       "image": "/images/products/t-pro-nordic-tp31.jpg",
       "description": "",
       "energyClass": "",
@@ -5207,6 +5599,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC prevod.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga VAC-09-24CHSDTP31-B Nordic.pdf"
+        }
       ]
     },
     {
@@ -5220,7 +5622,7 @@
       "subcategoryName": "SPLIT KLIMA UREĐAJI",
       "barcode": "",
       "inStock": false,
-      "lastUpdated": "2026-07-23T10:13:21.543Z",
+      "lastUpdated": "2026-10-29T13:05:22.353Z",
       "image": "/images/products/t-pro-nordic-tp31.jpg",
       "description": "",
       "energyClass": "",
@@ -5352,6 +5754,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC prevod.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga VAC-09-24CHSDTP31-B Nordic.pdf"
+        }
       ]
     },
     {
@@ -5364,8 +5776,8 @@
       "subcategory": "02KKO03",
       "subcategoryName": "KASETNA UNUTRAŠNJA CAC",
       "barcode": "8606108692769",
-      "inStock": false,
-      "lastUpdated": "2026-02-08T00:05:25.673Z",
+      "inStock": true,
+      "lastUpdated": "2026-10-17T22:50:06.830Z",
       "image": "/images/products/vca3u-vcd1-kasetni-split-r32.jpg",
       "description": "",
       "energyClass": "",
@@ -5461,6 +5873,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-24HRFM8, VCD1-36HRFM8, VTIU-18HWFM8, VTI-24HWFM8, VTI-36HWFM8, VOB30U-12HFM8, VOB30U-18HFM8, VOCA30U-24HFM8, VOD30U-36HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC VCD1-24_36_HRFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga - HRFM8.pdf"
+        }
       ]
     },
     {
@@ -5474,7 +5900,7 @@
       "subcategoryName": "KASETNA UNUTRAŠNJA CAC",
       "barcode": "8606108692776",
       "inStock": false,
-      "lastUpdated": "2026-03-01T00:26:50.377Z",
+      "lastUpdated": "2026-10-17T22:50:06.830Z",
       "image": "/images/products/vca3u-vcd1-kasetni-split-r32.jpg",
       "description": "",
       "energyClass": "",
@@ -5569,6 +5995,16 @@
           "group": "hlađenja",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "EMC VCD1-24HRFM8, VCD1-36HRFM8, VTIU-18HWFM8, VTI-24HWFM8, VTI-36HWFM8, VOB30U-12HFM8, VOB30U-18HFM8, VOCA30U-24HFM8, VOD30U-36HFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga - HRFM8.pdf"
         }
       ]
     },
@@ -5679,6 +6115,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-48HRFM8, VTI-48HWFM8, VTI-60HWFM8, VUE-48HRFM8, VOE30U-48HFM8, VOE30U-55HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC VCD1-48HRFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga - HRFM8.pdf"
+        }
       ]
     },
     {
@@ -5769,6 +6219,16 @@
           "group": "hlađenja",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-24HRFM8, VCD1-36HRFM8, VTIU-18HWFM8, VTI-24HWFM8, VTI-36HWFM8, VOB30U-12HFM8, VOB30U-18HFM8, VOCA30U-24HFM8, VOD30U-36HFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "IZVOD IZ KATALOGA HWFM8.pdf"
         }
       ]
     },
@@ -5861,6 +6321,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-24HRFM8, VCD1-36HRFM8, VTIU-18HWFM8, VTI-24HWFM8, VTI-36HWFM8, VOB30U-12HFM8, VOB30U-18HFM8, VOCA30U-24HFM8, VOD30U-36HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DoC VTI_VCD1_VUE_48_60_VOE30U_48_55.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "IZVOD IZ KATALOGA HWFM8.pdf"
+        }
       ]
     },
     {
@@ -5873,8 +6347,8 @@
       "subcategory": "02KKO04",
       "subcategoryName": "KANALSKA UNUTRAŠNJA CAC",
       "barcode": "8606108692837",
-      "inStock": true,
-      "lastUpdated": "2026-07-09T14:29:42.117Z",
+      "inStock": false,
+      "lastUpdated": "2026-09-16T15:32:30.260Z",
       "image": "/images/products/vti-kanalski-split-r32.jpg",
       "description": "",
       "energyClass": "",
@@ -5951,6 +6425,20 @@
           "group": "hlađenja",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-24HRFM8, VCD1-36HRFM8, VTIU-18HWFM8, VTI-24HWFM8, VTI-36HWFM8, VOB30U-12HFM8, VOB30U-18HFM8, VOCA30U-24HFM8, VOD30U-36HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "Declaration of conformity Midea - Venting VTI-HWFN1.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "IZVOD IZ KATALOGA HWFM8.pdf"
         }
       ]
     },
@@ -6043,6 +6531,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-48HRFM8, VTI-48HWFM8, VTI-60HWFM8, VUE-48HRFM8, VOE30U-48HFM8, VOE30U-55HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC Declaration of conformity_ LCAC and Multi_2026_SRB.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "IZVOD IZ KATALOGA HWFM8.pdf"
+        }
       ]
     },
     {
@@ -6133,6 +6635,20 @@
           "group": "hlađenja",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-48HRFM8, VTI-48HWFM8, VTI-60HWFM8, VUE-48HRFM8, VOE30U-48HFM8, VOE30U-55HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DoC VTI_VCD1_VUE_48_60_VOE30U_48_55.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "IZVOD IZ KATALOGA HWFM8.pdf"
         }
       ]
     },
@@ -6225,6 +6741,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-48HRFM8, VTI-48HWFM8, VTI-60HWFM8, VUE-48HRFM8, VOE30U-48HFM8, VOE30U-55HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DoC VTI_VCD1_VUE_48_60_VOE30U_48_55.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VUE-Izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -6237,7 +6767,7 @@
       "subcategory": "02KKO07",
       "subcategoryName": "SPOLJNA JEDINICA CAC",
       "barcode": "8606108692875",
-      "inStock": true,
+      "inStock": false,
       "lastUpdated": "2026-01-29T11:50:56.577Z",
       "image": "/images/products/univerzalna-spoljna-jedinica-r32.jpg",
       "description": "",
@@ -6297,6 +6827,20 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-24HRFM8, VCD1-36HRFM8, VTIU-18HWFM8, VTI-24HWFM8, VTI-36HWFM8, VOB30U-12HFM8, VOB30U-18HFM8, VOCA30U-24HFM8, VOD30U-36HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "Declaration of conformity.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VOB, VOD, VOE izvod iz kataloga.pdf"
         }
       ]
     },
@@ -6371,6 +6915,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-24HRFM8, VCD1-36HRFM8, VTIU-18HWFM8, VTI-24HWFM8, VTI-36HWFM8, VOB30U-12HFM8, VOB30U-18HFM8, VOCA30U-24HFM8, VOD30U-36HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "Declaration of conformity.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VOB, VOD, VOE izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -6383,8 +6941,8 @@
       "subcategory": "02KKO07",
       "subcategoryName": "SPOLJNA JEDINICA CAC",
       "barcode": "8606108692899",
-      "inStock": true,
-      "lastUpdated": "2026-03-18T10:37:13.717Z",
+      "inStock": false,
+      "lastUpdated": "2026-11-02T08:41:22.980Z",
       "image": "/images/products/univerzalna-spoljna-jedinica-r32.jpg",
       "description": "",
       "energyClass": "",
@@ -6444,6 +7002,12 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-24HRFM8, VCD1-36HRFM8, VTIU-18HWFM8, VTI-24HWFM8, VTI-36HWFM8, VOB30U-12HFM8, VOB30U-18HFM8, VOCA30U-24HFM8, VOD30U-36HFM8.pdf"
+        }
       ]
     },
     {
@@ -6457,7 +7021,7 @@
       "subcategoryName": "SPOLJNA JEDINICA CAC",
       "barcode": "8606108692905",
       "inStock": true,
-      "lastUpdated": "2026-02-08T00:05:25.673Z",
+      "lastUpdated": "2026-10-06T08:49:50.670Z",
       "image": "/images/products/univerzalna-spoljna-jedinica-r32.jpg",
       "description": "",
       "energyClass": "",
@@ -6516,6 +7080,20 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-24HRFM8, VCD1-36HRFM8, VTIU-18HWFM8, VTI-24HWFM8, VTI-36HWFM8, VOB30U-12HFM8, VOB30U-18HFM8, VOCA30U-24HFM8, VOD30U-36HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "Declaration of conformity.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VOB, VOD, VOE izvod iz kataloga.pdf"
         }
       ]
     },
@@ -6590,6 +7168,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-48HRFM8, VTI-48HWFM8, VTI-60HWFM8, VUE-48HRFM8, VOE30U-48HFM8, VOE30U-55HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "Declaration of conformity Midea - Venting.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VOB, VOD, VOE izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -6662,6 +7254,20 @@
           "group": "",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCD1-48HRFM8, VTI-48HWFM8, VTI-60HWFM8, VUE-48HRFM8, VOE30U-48HFM8, VOE30U-55HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "Declaration of conformity Midea - Venting.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VOB, VOD, VOE izvod iz kataloga.pdf"
         }
       ]
     },
@@ -6754,6 +7360,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DoC VTI_VUE_VCD1_24_36_VO_30U_12_18_24_36.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VUE-Izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -6845,7 +7461,8 @@
           "basic": false,
           "order": 9999
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "02KKO000808",
@@ -6936,7 +7553,8 @@
           "basic": false,
           "order": 9999
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "02KKO000814",
@@ -6954,7 +7572,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "02KKO000815",
@@ -6972,7 +7591,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "02KKO000816",
@@ -6984,13 +7604,14 @@
       "subcategory": "02KKO04",
       "subcategoryName": "KANALSKA UNUTRAŠNJA CAC",
       "barcode": "8606111605091",
-      "inStock": true,
-      "lastUpdated": "2026-07-18T17:58:15.817Z",
+      "inStock": false,
+      "lastUpdated": "2026-09-19T14:33:27.820Z",
       "image": "/images/products/nova-kanalska-uj.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "02KKO000817",
@@ -7003,12 +7624,13 @@
       "subcategoryName": "SPOLJNA JEDINICA CAC",
       "barcode": "8606111605107",
       "inStock": true,
-      "lastUpdated": "2025-12-08T11:06:43.593Z",
+      "lastUpdated": "2026-10-17T23:11:41.120Z",
       "image": "/images/products/nova-kompaktna-spoljna-jedinica.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "02KKO000818",
@@ -7026,7 +7648,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "02KKO000819",
@@ -7039,12 +7662,13 @@
       "subcategoryName": "SPOLJNA JEDINICA CAC",
       "barcode": "8606111605121",
       "inStock": false,
-      "lastUpdated": "2026-07-20T15:17:26.090Z",
+      "lastUpdated": "2026-09-19T14:56:04.937Z",
       "image": "/images/products/nova-kompaktna-spoljna-jedinica.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "02KKO000820",
@@ -7057,12 +7681,13 @@
       "subcategoryName": "SPOLJNA JEDINICA CAC",
       "barcode": "8606108692936",
       "inStock": true,
-      "lastUpdated": "2025-11-25T17:02:48.370Z",
+      "lastUpdated": "2026-10-17T22:50:06.830Z",
       "image": "/images/products/univerzalna-spoljna-jedinica-r32.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "02KKO000821",
@@ -7080,7 +7705,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "02KKO000822",
@@ -7092,13 +7718,14 @@
       "subcategory": "02KKO07",
       "subcategoryName": "SPOLJNA JEDINICA CAC",
       "barcode": "8606108692950",
-      "inStock": true,
+      "inStock": false,
       "lastUpdated": "2025-08-19T14:17:29.030Z",
       "image": "/images/products/univerzalna-spoljna-jedinica-r32.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "03MLT000833",
@@ -7188,6 +7815,20 @@
           "group": "grejanja",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCA3I-09HRFM8, VSAFBU-09HRDM8 UJ, VSAFBU-12HRDM8 UJ, VSAFCU-18HRFM8 UJ, VSAFDU-24HRFM8 UJ.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "Declaration of Conformity VSAF-HRDM-HRFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga _Venting Multi split zidna unutrašnja jedinica-VSAF_D1_F1_M8.pdf"
         }
       ]
     },
@@ -7298,6 +7939,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCA3U-12HRFM8, VCA3U-18HRFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC VCA3U-12_18HRFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VCA3u izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -7406,6 +8061,20 @@
           "group": "grejanja",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC VCA3U-12HRFM8, VCA3U-18HRFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC VCA3U-12_18HRFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VCA3u izvod iz kataloga.pdf"
         }
       ]
     },
@@ -7552,6 +8221,20 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC V2OE-18HFM8, V3OG-21HFM, V3OA-27HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC V2OE_V3OG_V3OA_V4OE_V4OB_V3OB_V4OC HFM8 _F.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga HFM8.pdf"
+        }
       ]
     },
     {
@@ -7696,6 +8379,20 @@
           "group": "hlađenja",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC V2OE-18HFM8, V3OG-21HFM, V3OA-27HFM8.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC V2OE_V3OG_V3OA_V4OE_V4OB_V3OB_V4OC HFM8 _F.pdf"
+        },
+        {
+          "title": "izvod iz kataloga",
+          "file": "Izvod iz kataloga HFM8.pdf"
         }
       ]
     },
@@ -7842,6 +8539,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC V5OE_42FHM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga HFM8.pdf"
+        }
       ]
     },
     {
@@ -7933,6 +8640,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "Declaration of Conformity VSAF-HRDM-HRFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga _Venting Multi split zidna unutrašnja jedinica-VSAF_D1_F1_M8.pdf"
+        }
       ]
     },
     {
@@ -8023,6 +8740,16 @@
           "group": "grejanja",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "Declaration of Conformity VSAF-HRDM-HRFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga _Venting Multi split zidna unutrašnja jedinica-VSAF_D1_F1_M8.pdf"
         }
       ]
     },
@@ -8169,6 +8896,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC V2OE_V3OG_V3OA_V4OE_V4OB_V3OB_V4OC HFM8 _F.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga HFM8.pdf"
+        }
       ]
     },
     {
@@ -8250,6 +8987,16 @@
           "group": "grejanja",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DoC VCA3U_VFA2U_V_HFM8_VZAU_V_HFM8F.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga VFA2U-HRFM8.pdf"
         }
       ]
     },
@@ -8333,6 +9080,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DoC VCA3U_VFA2U_V_HFM8_VZAU_V_HFM8F.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga VFA2U-HRFM8.pdf"
+        }
       ]
     },
     {
@@ -8414,6 +9171,16 @@
           "group": "grejanja",
           "basic": false,
           "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DoC VCA3U_VFA2U_V_HFM8_VZAU_V_HFM8F.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga VFA2U-HRFM8.pdf"
         }
       ]
     },
@@ -8560,7 +9327,8 @@
           "basic": false,
           "order": 9999
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "03MLT001034",
@@ -8705,7 +9473,8 @@
           "basic": false,
           "order": 9999
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "03MLT001035",
@@ -8814,6 +9583,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC VCA3U-12_18HRFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VCA3u izvod iz kataloga.pdf"
+        }
       ]
     },
     {
@@ -8827,7 +9606,7 @@
       "subcategoryName": "ZIDNA UNUTRAŠNJA MULTI",
       "barcode": "8606111605022",
       "inStock": true,
-      "lastUpdated": "2026-07-09T13:08:14.650Z",
+      "lastUpdated": "2026-10-29T12:54:49.010Z",
       "image": "/images/products/vsaf-multi-zidna-uj.jpg",
       "description": "",
       "energyClass": "",
@@ -8905,7 +9684,8 @@
           "basic": false,
           "order": 9999
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "03MLT001076",
@@ -8918,7 +9698,7 @@
       "subcategoryName": "ZIDNA UNUTRAŠNJA MULTI",
       "barcode": "8606111605015",
       "inStock": true,
-      "lastUpdated": "2026-07-09T14:09:49.477Z",
+      "lastUpdated": "2026-10-29T12:55:19.800Z",
       "image": "/images/products/vsaf-multi-zidna-uj.jpg",
       "description": "",
       "energyClass": "",
@@ -8996,7 +9776,8 @@
           "basic": false,
           "order": 9999
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "03MLT001081",
@@ -9078,7 +9859,8 @@
           "basic": false,
           "order": 9999
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "03MLT001082",
@@ -9160,7 +9942,8 @@
           "basic": false,
           "order": 9999
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "03MLT001109",
@@ -9173,12 +9956,13 @@
       "subcategoryName": "KASETNA UNUTRAŠNJA MULTI",
       "barcode": "8606111605039",
       "inStock": true,
-      "lastUpdated": "2025-12-16T17:15:46.470Z",
+      "lastUpdated": "2026-10-17T23:11:41.120Z",
       "image": "/images/products/nova-kompaktna-kasetna-uj.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "03MLT001110",
@@ -9190,13 +9974,14 @@
       "subcategory": "03MLT02",
       "subcategoryName": "KASETNA UNUTRAŠNJA MULTI",
       "barcode": "8606111605046",
-      "inStock": false,
-      "lastUpdated": "2025-11-25T17:02:48.370Z",
+      "inStock": true,
+      "lastUpdated": "2026-10-17T23:11:41.120Z",
       "image": "/images/products/nova-kompaktna-kasetna-uj.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "03MLT001111",
@@ -9209,12 +9994,13 @@
       "subcategoryName": "KASETNA UNUTRAŠNJA MULTI",
       "barcode": "8606111605053",
       "inStock": true,
-      "lastUpdated": "2025-11-25T17:02:48.370Z",
+      "lastUpdated": "2026-10-17T23:11:41.120Z",
       "image": "/images/products/nova-kompaktna-kasetna-uj.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "03MLT001122",
@@ -9232,7 +10018,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "03MLT001123",
@@ -9323,6 +10110,16 @@
           "basic": false,
           "order": 9999
         }
+      ],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "Declaration of Conformity VSAF-HRDM-HRFM8.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga _Venting Multi split zidna unutrašnja jedinica-VSAF_D1_F1_M8.pdf"
+        }
       ]
     },
     {
@@ -9341,7 +10138,17 @@
       "description": "",
       "energyClass": "",
       "inverter": "DA",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Declaration of conformity_Split  Air Conditioner_2026.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VSGPAU izvod iz kataloga.pdf"
+        }
+      ]
     },
     {
       "id": "03MLT001165",
@@ -9354,12 +10161,22 @@
       "subcategoryName": "ZIDNA UNUTRAŠNJA MULTI",
       "barcode": "8606113063189",
       "inStock": true,
-      "lastUpdated": "2026-07-22T15:49:34.690Z",
+      "lastUpdated": "2026-11-09T16:14:21.923Z",
       "image": "/images/products/glory-plus.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "DA",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Declaration of conformity_Split  Air Conditioner_2026.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga _Venting Multi split zidna unutrašnja jedinica-VSAF_D1_F1_M8.pdf"
+        }
+      ]
     },
     {
       "id": "03MLT001166",
@@ -9372,12 +10189,22 @@
       "subcategoryName": "ZIDNA UNUTRAŠNJA MULTI",
       "barcode": "8606113063202",
       "inStock": true,
-      "lastUpdated": "2026-07-31T13:38:14.713Z",
+      "lastUpdated": "2026-11-09T16:14:21.923Z",
       "image": "/images/products/glory-plus.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Declaration of conformity_Split  Air Conditioner_2026.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga _Venting Multi split zidna unutrašnja jedinica-VSAF_D1_F1_M8.pdf"
+        }
+      ]
     },
     {
       "id": "03MLT001167",
@@ -9395,7 +10222,17 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Declaration of conformity_Split  Air Conditioner_2026.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga _Venting Multi split zidna unutrašnja jedinica-VSAF_D1_F1_M8.pdf"
+        }
+      ]
     },
     {
       "id": "03MLT001168",
@@ -9413,7 +10250,17 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "Izvod iz kataloga",
+          "file": "VSGPAU izvod iz kataloga.pdf"
+        },
+        {
+          "title": "DoC",
+          "file": "DOC Declaration of conformity_Split  Air Conditioner_2026.pdf"
+        }
+      ]
     },
     {
       "id": "03MLT001169",
@@ -9426,12 +10273,22 @@
       "subcategoryName": "ZIDNA UNUTRAŠNJA MULTI",
       "barcode": "8606113063264",
       "inStock": true,
-      "lastUpdated": "2026-07-31T15:51:38.303Z",
+      "lastUpdated": "2026-10-13T21:00:30.373Z",
       "image": "/images/products/glory-pro.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Declaration of conformity_Split  Air Conditioner_2026.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga _Venting Multi split zidna unutrašnja jedinica-VSAF_D1_F1_M8.pdf"
+        }
+      ]
     },
     {
       "id": "03MLT001170",
@@ -9443,13 +10300,23 @@
       "subcategory": "03MLT04",
       "subcategoryName": "ZIDNA UNUTRAŠNJA MULTI",
       "barcode": "8606113063288",
-      "inStock": true,
-      "lastUpdated": "2026-07-22T15:48:27.377Z",
+      "inStock": false,
+      "lastUpdated": "2026-10-14T13:57:45.730Z",
       "image": "/images/products/glory-pro.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DOC Declaration of conformity_Split  Air Conditioner_2026.pdf"
+        },
+        {
+          "title": "Izvod iz kataloga",
+          "file": "Izvod iz kataloga _Venting Multi split zidna unutrašnja jedinica-VSAF_D1_F1_M8.pdf"
+        }
+      ]
     },
     {
       "id": "03MLT001171",
@@ -9467,7 +10334,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "04VRF001116",
@@ -9480,7 +10348,7 @@
       "subcategoryName": "PRIPREMA VODE UNUTRAŠNJA JEDINICA  VRF",
       "barcode": "8606111605404",
       "inStock": true,
-      "lastUpdated": "2026-02-07T19:53:05.520Z",
+      "lastUpdated": "2026-10-19T11:33:49.933Z",
       "image": "/images/products/hidro-box.jpg",
       "description": "",
       "energyClass": "",
@@ -9504,7 +10372,8 @@
           "basic": false,
           "order": 9999
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "07KVV000226",
@@ -9522,7 +10391,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "EMC - Potvrda o usaglašenosti",
+          "file": "EMC - HKM,HWA,HWMU.pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000227",
@@ -9540,7 +10415,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "EMC - Potvrda o usaglašenosti",
+          "file": "EMC - HKM,HWA,HWMU.pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000228",
@@ -9558,7 +10439,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "EMC - Potvrda o usaglašenosti",
+          "file": "EMC - HKM,HWA,HWMU.pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000229",
@@ -9576,7 +10463,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "EMC - Potvrda o usaglašenosti",
+          "file": "EMC - HKM,HWA,HWMU.pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000230",
@@ -9594,7 +10487,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "EMC - Potvrda o usaglašenosti",
+          "file": "EMC - HKM,HWA,HWMU.pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000312",
@@ -9612,7 +10511,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC  H2WMU-V  HWA-V.pdf .pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000313",
@@ -9630,7 +10535,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC  H2WMU-V  HWA-V.pdf .pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000314",
@@ -9648,7 +10559,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC  H2WMU-V  HWA-V.pdf .pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000315",
@@ -9666,7 +10583,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC  H2WMU-V  HWA-V.pdf .pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000316",
@@ -9684,7 +10607,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC  H2WMU-V  HWA-V.pdf .pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000317",
@@ -9702,7 +10631,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC  H2WMU-V  HWA-V.pdf .pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000318",
@@ -9720,7 +10655,13 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "Potvrda o usaglašenosti EMC",
+          "file": "EMC  H2WMU-V  HWA-V.pdf .pdf"
+        }
+      ]
     },
     {
       "id": "07KVV000319",
@@ -9738,7 +10679,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000320",
@@ -9750,13 +10692,14 @@
       "subcategory": "07KVVTGT04",
       "subcategoryName": "KANALSKI FANCOIL (KONVEKTOR)",
       "barcode": "8606111605862",
-      "inStock": true,
+      "inStock": false,
       "lastUpdated": "2024-10-21T13:08:04.707Z",
       "image": "/images/products/hwa-kanalski-fancoil-visoki-pritisak.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000321",
@@ -9774,7 +10717,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000403",
@@ -9792,7 +10736,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000404",
@@ -9810,7 +10755,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000405",
@@ -9828,7 +10774,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000412",
@@ -9846,7 +10793,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000413",
@@ -9864,7 +10812,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000414",
@@ -9882,7 +10831,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000415",
@@ -9900,7 +10850,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000416",
@@ -9918,7 +10869,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000457",
@@ -9936,7 +10888,8 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
     },
     {
       "id": "07KVV000458",
@@ -9954,7 +10907,85 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": []
+    },
+    {
+      "id": "08VNT000003",
+      "name": "VAZDUŠNA ZAVESA VENTING FM3012-Y-1-S",
+      "model": "FM3012-Y-1-S",
+      "type": "VAZDUŠNA ZAVESA",
+      "category": "08VNTZAV",
+      "categoryName": "VAZDUŠNE ZAVESE",
+      "subcategory": "08VNTZAV03",
+      "subcategoryName": "VAZDUŠNE ZAVESE ELEKTRIČNE BEZ GREJAČA",
+      "barcode": "",
+      "inStock": true,
+      "lastUpdated": "2024-10-18T13:19:03.960Z",
+      "image": "/images/products/08VNT000003.jpg",
+      "description": "",
+      "energyClass": "",
+      "inverter": "",
+      "specs": [
+        {
+          "name": "ŠIRINA ZAVESE",
+          "value": "1500",
+          "attr": "",
+          "unit": "cm",
+          "group": "",
+          "basic": false,
+          "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Uputstvo za upotrebu vazdusna zavesa FM3009-3010-3012-3015.pdf"
+        }
+      ]
+    },
+    {
+      "id": "08VNT000005",
+      "name": "VAZDUŠNA ZAVESA VENTING FM3510CS",
+      "model": "FM3510CS",
+      "type": "VAZDUŠNA ZAVESA",
+      "category": "08VNTZAV",
+      "categoryName": "VAZDUŠNE ZAVESE",
+      "subcategory": "08VNTZAV03",
+      "subcategoryName": "VAZDUŠNE ZAVESE ELEKTRIČNE BEZ GREJAČA",
+      "barcode": "",
+      "inStock": true,
+      "lastUpdated": "2024-04-18T14:11:31.193Z",
+      "image": "/images/products/08VNT000005.jpg",
+      "description": "",
+      "energyClass": "",
+      "inverter": "",
+      "specs": [
+        {
+          "name": "ŠIRINA ZAVESE",
+          "value": "100",
+          "attr": "",
+          "unit": "cm",
+          "group": "",
+          "basic": false,
+          "order": 9999
+        },
+        {
+          "name": "MAX. PROTOK VAZDUHA",
+          "value": "1158",
+          "attr": "",
+          "unit": "m3/h",
+          "group": "",
+          "basic": false,
+          "order": 9999
+        }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "Korisničko uputstvo FM 3510 .pdf"
+        }
+      ]
     },
     {
       "id": "08VNT003534",
@@ -9966,13 +10997,23 @@
       "subcategory": "08VNTREK01",
       "subcategoryName": "REKUPERATORI ERV",
       "barcode": "8606111605558",
-      "inStock": false,
+      "inStock": true,
       "lastUpdated": "2026-08-26T20:06:54.970Z",
       "image": "/images/products/vhbqit-rekuperator.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DECLARATION OF CONFORMITY FOR CE CERTIFICATE.pdf"
+        },
+        {
+          "title": "Uputstvo za kontroler",
+          "file": "Touch screen controller -SRB.pdf"
+        }
+      ]
     },
     {
       "id": "08VNT003535",
@@ -9984,13 +11025,23 @@
       "subcategory": "08VNTREK01",
       "subcategoryName": "REKUPERATORI ERV",
       "barcode": "8606111605565",
-      "inStock": true,
-      "lastUpdated": "2026-08-26T20:06:54.970Z",
+      "inStock": false,
+      "lastUpdated": "2026-11-16T07:47:29.740Z",
       "image": "/images/products/vhbqit-rekuperator.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DECLARATION OF CONFORMITY FOR CE CERTIFICATE.pdf"
+        },
+        {
+          "title": "Uputstvo za kontroler",
+          "file": "Touch screen controller -SRB.pdf"
+        }
+      ]
     },
     {
       "id": "08VNT003536",
@@ -10003,12 +11054,22 @@
       "subcategoryName": "REKUPERATORI ERV",
       "barcode": "8606111605572",
       "inStock": false,
-      "lastUpdated": "2026-08-25T11:38:04.220Z",
+      "lastUpdated": "2026-11-16T07:47:43.077Z",
       "image": "/images/products/vhbqit-rekuperator.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DECLARATION OF CONFORMITY FOR CE CERTIFICATE.pdf"
+        },
+        {
+          "title": "Uputstvo za kontroler",
+          "file": "Touch screen controller -SRB.pdf"
+        }
+      ]
     },
     {
       "id": "08VNT003537",
@@ -10021,12 +11082,22 @@
       "subcategoryName": "REKUPERATORI ERV",
       "barcode": "8606111605589",
       "inStock": false,
-      "lastUpdated": "2026-06-26T12:40:12.443Z",
+      "lastUpdated": "2026-11-16T07:47:54.013Z",
       "image": "/images/products/vhbqit-rekuperator.jpg",
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DECLARATION OF CONFORMITY FOR CE CERTIFICATE.pdf"
+        },
+        {
+          "title": "Uputstvo za kontroler",
+          "file": "Touch screen controller -SRB.pdf"
+        }
+      ]
     },
     {
       "id": "08VNT003538",
@@ -10044,7 +11115,17 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "Flajer",
+          "file": "VENTING BRAND Single-room Energy Recovery Ventilator.pdf"
+        },
+        {
+          "title": "Korisničko uputstvo",
+          "file": "User manual for VENTING VAV-TTW5-W-2023.pdf"
+        }
+      ]
     },
     {
       "id": "08VNT003610",
@@ -10062,7 +11143,17 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DECLARATION OF CONFORMITY FOR CE CERTIFICATE.pdf"
+        },
+        {
+          "title": "Uputstvo za kontroler",
+          "file": "Touch screen controller -SRB.pdf"
+        }
+      ]
     },
     {
       "id": "08VNT003611",
@@ -10080,7 +11171,17 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DECLARATION OF CONFORMITY FOR CE CERTIFICATE.pdf"
+        },
+        {
+          "title": "Uputstvo za kontroler",
+          "file": "Touch screen controller -SRB.pdf"
+        }
+      ]
     },
     {
       "id": "08VNT003612",
@@ -10098,7 +11199,17 @@
       "description": "",
       "energyClass": "",
       "inverter": "",
-      "specs": []
+      "specs": [],
+      "docs": [
+        {
+          "title": "DoC",
+          "file": "DECLARATION OF CONFORMITY FOR CE CERTIFICATE.pdf"
+        },
+        {
+          "title": "Uputstvo za kontroler",
+          "file": "Touch screen controller -SRB.pdf"
+        }
+      ]
     },
     {
       "id": "11OPR001772",
@@ -10188,6 +11299,12 @@
           "group": "",
           "basic": false,
           "order": 7
+        }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "uputstvo za upotrebu kondez pumpe PC-24A I PC-40A v22.pdf"
         }
       ]
     },
@@ -10280,6 +11397,12 @@
           "basic": false,
           "order": 7
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "uputstvo za upotrebu kondez pumpe PC-24A I PC-40A v22.pdf"
+        }
       ]
     },
     {
@@ -10295,7 +11418,7 @@
       "inStock": true,
       "lastUpdated": "2026-08-04T16:03:58.747Z",
       "image": "/images/products/kondenz-pumpa-pc-80a.jpg",
-      "description": "Pumpa za odvod kondenzata sa najvećom podiznom visinom u seriji — do 12 m, za uređaje do 15 kW. Snaga 3 W, nizak nivo buke, veoma tih rad bez vibracija. Kompaktna konstrukcija koja se lako sklapa. CE sertifikat.",
+      "description": "Pumpa za odvod kondenzata sa najvećom podiznom visinom u seriji - do 12 m, za uređaje do 15 kW. Snaga 3 W, nizak nivo buke, veoma tih rad bez vibracija. Kompaktna konstrukcija koja se lako sklapa. CE sertifikat.",
       "energyClass": "",
       "inverter": "",
       "specs": [
@@ -10370,6 +11493,16 @@
           "group": "",
           "basic": false,
           "order": 7
+        }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "uputstvo za upotrebu kondez pumpe PC-50A v22.pdf"
+        },
+        {
+          "title": "EMC Sertifikat",
+          "file": "EMC PC-50A,PC-80A.pdf"
         }
       ]
     },
@@ -10452,6 +11585,16 @@
           "group": "",
           "basic": false,
           "order": 6
+        }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "uputstvo za upotrebu kondez pumpe PC-80A v22.pdf"
+        },
+        {
+          "title": "EMC Sertifikat",
+          "file": "EMC PC-50A,PC-80A.pdf"
         }
       ]
     },
@@ -10544,6 +11687,12 @@
           "basic": false,
           "order": 7
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "uputstvo za upotrebu kondez pumpe PC-12B I PC-36B v22.pdf"
+        }
       ]
     },
     {
@@ -10634,6 +11783,12 @@
           "group": "",
           "basic": false,
           "order": 7
+        }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "uputstvo za upotrebu kondez pumpe PC-12C I PC-36C v22.pdf"
         }
       ]
     },
@@ -10726,6 +11881,12 @@
           "basic": false,
           "order": 7
         }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "uputstvo za upotrebu kondez pumpe PC-12C I PC-36C v22.pdf"
+        }
       ]
     },
     {
@@ -10741,7 +11902,7 @@
       "inStock": true,
       "lastUpdated": "2026-08-04T16:03:58.747Z",
       "image": "/images/products/kondenz-pumpa-pc-80a.jpg",
-      "description": "Pumpa najvećeg kapaciteta u seriji — do 125 L/h, sa rezervoarom od 1,8 L. Namenjena većim sistemima i komercijalnim instalacijama.",
+      "description": "Pumpa najvećeg kapaciteta u seriji - do 125 L/h, sa rezervoarom od 1,8 L. Namenjena većim sistemima i komercijalnim instalacijama.",
       "energyClass": "",
       "inverter": "",
       "specs": [
@@ -10807,6 +11968,12 @@
           "group": "",
           "basic": false,
           "order": 6
+        }
+      ],
+      "docs": [
+        {
+          "title": "Korisničko uputstvo",
+          "file": "uputstvo za upotrebu kondez pumpe PC-125A v22.pdf"
         }
       ]
     },
@@ -10890,7 +12057,8 @@
           "basic": false,
           "order": 6
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "11OPR002922",
@@ -10972,7 +12140,8 @@
           "basic": false,
           "order": 6
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "11OPR003068",
@@ -10984,7 +12153,7 @@
       "subcategory": "11OPRPOK04",
       "subcategoryName": "SENZORI I TERMOSTATI",
       "barcode": "",
-      "inStock": false,
+      "inStock": true,
       "lastUpdated": "2025-06-14T11:35:40.530Z",
       "image": "/images/products/termostat-vbc103.jpg",
       "description": "Termostat za dvocevne i četvorocevne fancoil jedinice sa kontrolom podnog grejanja, ugradnja u fancoil. Modbus komunikacija, tajmer/program, dry kontakt za prozor ili vrata i hotelski držač kartica.",
@@ -11081,6 +12250,12 @@
           "basic": false,
           "order": 9
         }
+      ],
+      "docs": [
+        {
+          "title": "Modbus protocol",
+          "file": "BC102,103 Series Modbus Protocol.pdf"
+        }
       ]
     },
     {
@@ -11093,7 +12268,7 @@
       "subcategory": "11OPRPOK04",
       "subcategoryName": "SENZORI I TERMOSTATI",
       "barcode": "",
-      "inStock": false,
+      "inStock": true,
       "lastUpdated": "2024-10-08T20:11:45.943Z",
       "image": "/images/products/termostat-vbc103.jpg",
       "description": "Termostat za dvocevne i četvorocevne fancoil jedinice sa Modbus komunikacijom, tajmerom/programom, dry kontaktom za prozor ili vrata i hotelskim držačem kartica.",
@@ -11172,6 +12347,12 @@
           "basic": false,
           "order": 7
         }
+      ],
+      "docs": [
+        {
+          "title": "Modbus protocol",
+          "file": "BC102,103 Series Modbus Protocol.pdf"
+        }
       ]
     },
     {
@@ -11184,7 +12365,7 @@
       "subcategory": "11OPRPOK04",
       "subcategoryName": "SENZORI I TERMOSTATI",
       "barcode": "",
-      "inStock": false,
+      "inStock": true,
       "lastUpdated": "2025-02-13T12:42:45.577Z",
       "image": "/images/products/termostat-vbc103s.jpg",
       "description": "Termostat za dvocevne i četvorocevne fancoil jedinice sa kontrolom podnog grejanja, montaža na zid. Modbus komunikacija, tajmer/program, dry kontakt za prozor ili vrata i hotelski držač kartica.",
@@ -11280,6 +12461,12 @@
           "group": "",
           "basic": false,
           "order": 9
+        }
+      ],
+      "docs": [
+        {
+          "title": "Mdbus protocol",
+          "file": "BC102,103 Series Modbus Protocol.pdf"
         }
       ]
     },
@@ -11390,6 +12577,12 @@
           "basic": false,
           "order": 9
         }
+      ],
+      "docs": [
+        {
+          "title": "Modbus protocol",
+          "file": "BC117 Series Modbus Protocol.pdf"
+        }
       ]
     },
     {
@@ -11402,7 +12595,7 @@
       "subcategory": "11OPRPOK04",
       "subcategoryName": "SENZORI I TERMOSTATI",
       "barcode": "",
-      "inStock": false,
+      "inStock": true,
       "lastUpdated": "2026-02-09T23:13:30.060Z",
       "image": "/images/products/termostat-vbc117w.jpg",
       "description": "Termostat za dvocevne fancoil jedinice sa Wi-Fi kontrolom i dodatnim cevnim senzorom (oznaka S). Modbus komunikacija, tajmer/program, dry kontakt za prozor ili vrata i hotelski držač kartica.",
@@ -11499,6 +12692,12 @@
           "basic": false,
           "order": 9
         }
+      ],
+      "docs": [
+        {
+          "title": "Modbus protocol",
+          "file": "BC117 Series Modbus Protocol.pdf"
+        }
       ]
     },
     {
@@ -11572,7 +12771,8 @@
           "basic": false,
           "order": 5
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "11OPR003412",
@@ -11654,7 +12854,8 @@
           "basic": false,
           "order": 6
         }
-      ]
+      ],
+      "docs": []
     },
     {
       "id": "11OPR004374",
@@ -11736,7 +12937,8 @@
           "basic": false,
           "order": 6
         }
-      ]
+      ],
+      "docs": []
     }
   ],
   "categories": [
@@ -11779,8 +12981,13 @@
       "code": "FLEXFIT",
       "name": "FLEX FIT",
       "count": 4
+    },
+    {
+      "code": "08VNTZAV",
+      "name": "VAZDUŠNE ZAVESE",
+      "count": 2
     }
   ],
-  "syncedAt": "2026-09-13T22:27:09.991Z",
-  "total": 146
+  "syncedAt": "2026-11-23T07:47:43.594Z",
+  "total": 148
 }

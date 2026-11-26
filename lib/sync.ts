@@ -9,6 +9,7 @@
 import { overrideImage, overrideRule } from './image-overrides.mjs'
 import { VIRTUAL_CATEGORY_NAMES } from './categories.mjs'
 import { catalogInfo, toSpecs } from './catalog-info.mjs'
+import { buildDocsMap } from './docs.mjs'
 import { isCatalogProduct } from './product-filter.mjs'
 
 const STEELSOFT_BASE = 'http://mail.steelsoft.rs:51337'
@@ -42,6 +43,12 @@ export interface Product {
   energyClass: string
   inverter: string
   specs: Spec[]
+  docs?: Doc[]
+}
+
+export interface Doc {
+  title: string
+  file: string
 }
 
 export interface Category {
@@ -114,6 +121,12 @@ function imageInput(p: RawProduct) {
   return { name: p.acName ?? '', model: p.Model ?? '', subcategoryName: p.acCLassif2Name ?? '' }
 }
 
+interface RawDoc {
+  acIdent: string
+  acName: string | null
+  acURL: string | null
+}
+
 interface RawSpec {
   acIdent: string
   acSpecName: string
@@ -137,12 +150,23 @@ export async function syncProducts(): Promise<SyncResult> {
   const allSpecs = await fetchSteelSoft<RawSpec[]>('/api/karakteristike/')
   console.log(`[sync] Got ${allSpecs.length} specs`)
 
+  // Dokumentacija nije obavezna - ako API ne odgovori, proizvodi idu bez nje
+  let allDocs: RawDoc[] = []
+  try {
+    console.log('[sync] Fetching SteelSoft documents…')
+    allDocs = await fetchSteelSoft<RawDoc[]>('/api/dokumentacija/')
+    console.log(`[sync] Got ${allDocs.length} documents`)
+  } catch (err) {
+    console.error('[sync] Documents skipped:', err)
+  }
+
   // The 2026 catalogue *is* the set of photos the client sent - a product only
   // exists on the site if one of those photos covers it (see product-filter.mjs).
   // Everything else (discontinued series, spare parts, items with no photo) is
   // left out by design.
   const ventingRaw = allProducts.filter(isCatalogProduct)
   const ventingIds = new Set(ventingRaw.map((p) => p.acIdent))
+  const docsMap = buildDocsMap(allDocs, ventingIds) as Map<string, Doc[]>
   console.log(`[sync] ${ventingRaw.length} VENTING catalogue products`)
 
   // Build specs map (acIdent → Spec[]), sorted by official order
@@ -197,6 +221,7 @@ export async function syncProducts(): Promise<SyncResult> {
     inverter: p.Inverter ?? '',
     // API za neke grupe ne vraća karakteristike - tada uzimamo one iz kataloga
     specs: apiSpecs.length > 0 ? apiSpecs : info ? toSpecs(info.specs) : [],
+    docs: docsMap.get(p.acIdent) ?? [],
     }
   })
 

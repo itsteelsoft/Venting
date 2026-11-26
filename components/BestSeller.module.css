@@ -46,8 +46,8 @@
 }
 
 .item:hover .card {
-  background: #edf1f5;
-  border-color: #c8d4de;
+  background: #FFFAFA;
+  border-color: #E07A73;
   transform: translateY(-8px);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.10);
 }
@@ -144,10 +144,7 @@
     border-color 0.35s ease;
 }
 
-.item:hover .actionBar {
-  max-height: 64px;
-  border-top-color: rgba(12, 12, 13, 0.15);
-}
+
 
 /* Action buttons */
 .actionBtn {

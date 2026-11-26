@@ -22,13 +22,15 @@ export default function HeroSlider() {
     setCurrent(((idx % SLIDES.length) + SLIDES.length) % SLIDES.length)
   }, [])
 
-  const startAuto = useCallback(() => {
-    timerRef.current = setInterval(() => setCurrent((c) => (c + 1) % SLIDES.length), DELAY)
+   const stopAuto = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current)
+    timerRef.current = null
   }, [])
 
-  const stopAuto = useCallback(() => {
-    if (timerRef.current) clearInterval(timerRef.current)
-  }, [])
+  const startAuto = useCallback(() => {
+    stopAuto()
+    timerRef.current = setInterval(() => setCurrent((c) => (c + 1) % SLIDES.length), DELAY)
+  }, [stopAuto])
 
   useEffect(() => { startAuto(); return stopAuto }, [startAuto, stopAuto])
 
@@ -45,8 +47,7 @@ export default function HeroSlider() {
         transition: 'background 0.65s ease',
       }}
       aria-label="Istaknuti proizvodi"
-      onMouseEnter={stopAuto}
-      onMouseLeave={startAuto}
+   
       onTouchStart={(e) => { touchXRef.current = e.changedTouches[0].clientX }}
       onTouchEnd={(e) => {
         const dx = e.changedTouches[0].clientX - touchXRef.current
@@ -55,14 +56,13 @@ export default function HeroSlider() {
     >
       <div
         className="slides-track"
-        style={{ transform: `translateX(-${current * 100}%)` }}
         role="list"
       >
         {SLIDES.map((slide, i) => (
           <div
             key={slide.src}
             className="slide relative"
-            style={{ background: slide.bg }}
+            style={{ background: slide.bg, transform: `translateX(${(i - current) * 100}%)` }}
             role="listitem"
           >
             <Image
@@ -105,6 +105,17 @@ export default function HeroSlider() {
           />
         ))}
       </div>
+      {/* Strelica "skroluj dole" - samo desktop */}
+      <button
+        type="button"
+        onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
+        className="hidden lg:flex absolute bottom-12 left-1/2 -translate-x-1/2 z-10 w-11 h-11 items-center justify-center rounded-full bg-white/80 text-brand-text shadow-md transition-transform duration-300 hover:translate-y-1"
+        aria-label="Skroluj dole"
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" />
+        </svg>
+      </button>
     </section>
   )
 }

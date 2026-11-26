@@ -4,6 +4,7 @@ import BestSeller from '@/components/BestSeller'
 import WeRecommend from '@/components/WeRecommend'
 import Disclaimer from '@/components/Disclaimer'
 import Blog from '@/components/Blog'
+import Reveal from '@/components/Reveal'
 import Footer from '@/components/Footer'
 import FloatingButtons from '@/components/FloatingButtons'
 import { getProducts } from '@/lib/products'
@@ -145,13 +146,13 @@ export default async function Home() {
   return (
     <>
       <OrganizationJsonLd />
-      <Header />
+      <Header autoHide />
       <main>
         <HeroSlider />
-        <BestSeller products={bestSellers} />
-        <WeRecommend categoryStats={RECOMMEND_TABS.map((t) => categoryStats[t])} />
-        <Disclaimer />
-        <Blog />
+        <Reveal><BestSeller products={bestSellers} /></Reveal>
+        <Reveal><WeRecommend categoryStats={RECOMMEND_TABS.map((t) => categoryStats[t])} /></Reveal>
+        <Reveal><Disclaimer /></Reveal>
+        <Reveal><Blog /></Reveal>
       </main>
       <Footer />
       <FloatingButtons />

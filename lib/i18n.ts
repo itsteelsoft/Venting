@@ -60,7 +60,7 @@ export type T = {
 export const translations: Record<Locale, T> = {
   /* Serbian */
   sr: {
-    nav: ['Kućna rešenja', 'Komercijalna rešenja', 'Flex Fit', 'Rekuperatori', 'Fancoili', 'Kondenz pumpe', 'Dodatna oprema'],
+    nav: ['Kućna rešenja', 'Komercijalna rešenja', 'Flex Fit', 'Rekuperatori', 'Fancoili', 'Kondenz pumpe', 'Vazdušne zavese', 'Dodatna oprema'],
     heroCta: 'Pogledaj više',
     heroSlides: [
       { eyebrow: 'Pametna klima', title: ['Venting', 'Klima uređaji'] },
@@ -69,7 +69,7 @@ export const translations: Record<Locale, T> = {
       { eyebrow: 'Čist vazduh', title: ['Venting', 'Rekuperatori'] },
       { eyebrow: 'Efikasno grejanje', title: ['Venting', 'Fancoili'] },
       { eyebrow: 'Odvod kondenzata', title: ['Venting', 'Kondenz pumpe'] },
-      { eyebrow: 'Kompletna oprema', title: ['Venting', 'Dodatna oprema'] },
+      { eyebrow: 'Zaštita ulaza', title: ['Venting', 'Vazdušne', 'zavese'] },
     ],
     bestSeller: 'Najprodavaniji',
     weRecommend: 'Preporučujemo',
@@ -123,7 +123,7 @@ export const translations: Record<Locale, T> = {
 
   /* English */
   en: {
-    nav: ['Home Solutions', 'Commercial Solutions', 'Flex Fit', 'Recuperators', 'Fan Coils', 'Condensate Pumps', 'Additional Equipment'],
+    nav: ['Home Solutions', 'Commercial Solutions', 'Flex Fit', 'Recuperators', 'Fan Coils', 'Condensate Pumps', 'Air Curtains', 'Additional Equipment'],
     heroCta: 'See more',
     heroSlides: [
       { eyebrow: 'Smart climate', title: ['Venting', 'Air Conditioning'] },
@@ -132,7 +132,7 @@ export const translations: Record<Locale, T> = {
       { eyebrow: 'Clean air', title: ['Venting', 'Recuperators'] },
       { eyebrow: 'Efficient heating', title: ['Venting', 'Fan Coils'] },
       { eyebrow: 'Condensate removal', title: ['Venting', 'Condensate Pumps'] },
-      { eyebrow: 'Complete equipment', title: ['Venting', 'Additional Equipment'] },
+      { eyebrow: 'Entrance protection', title: ['Venting', 'Air', 'Curtains'] },
     ],
     bestSeller: 'Best Sellers',
     weRecommend: 'We Recommend',

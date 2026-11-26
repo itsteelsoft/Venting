@@ -1,9 +1,13 @@
 'use client'
 
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { useLanguage } from '@/lib/LanguageContext'
 import type { Product } from '@/lib/sync'
 import styles from './ProductDetail.module.css'
+import Reveal from '@/components/Reveal'
+import { NAV_CATEGORY_MAP, categoryHref } from '@/lib/categories.mjs'
+import { docUrl, docType, hasDoc } from '@/lib/docs.mjs'
 
 interface Props {
   product: Product
@@ -24,6 +28,23 @@ function ImagePlaceholder() {
 
 export default function ProductDetail({ product, related = [] }: Props) {
   const { t } = useLanguage()
+  const [zoomOpen, setZoomOpen] = useState(false)
+  const [tab, setTab] = useState<'specs' | 'docs'>('specs')
+
+  // Dokumentacija sa adresama (prazno ako adresa servera za dokumenta nije podešena)
+  const docs = (product.docs ?? [])
+    .map((d) => ({ ...d, url: docUrl(d.file) as string, type: docType(d.file) as string }))
+    .filter((d) => d.url && hasDoc(d.file))
+
+  // Uvećana slika: Esc zatvara, stranica ispod se ne skroluje
+  useEffect(() => {
+    if (!zoomOpen) return
+    const esc = (e: KeyboardEvent) => { if (e.key === 'Escape') setZoomOpen(false) }
+    document.addEventListener('keydown', esc)
+    const prev = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    return () => { document.removeEventListener('keydown', esc); document.body.style.overflow = prev }
+  }, [zoomOpen])
 
   // Group specs by their group label (empty group → 'Opšte')
   const specGroups = product.specs.reduce<Record<string, typeof product.specs>>((acc, spec) => {
@@ -81,7 +102,7 @@ export default function ProductDetail({ product, related = [] }: Props) {
             <nav className={styles.breadcrumb} aria-label="Breadcrumb">
               <a href="/">Venting</a>
               <span aria-hidden="true">/</span>
-              <a href={`/shop?tab=${categoryToTab(product.category)}`}>{product.categoryName}</a>
+                  <a href={categoryHrefFor(product.category)}>{product.categoryName}</a>
               <span aria-hidden="true">/</span>
               <span aria-current="page">{product.name}</span>
             </nav>
@@ -139,22 +160,72 @@ export default function ProductDetail({ product, related = [] }: Props) {
           {/* Right: image - hidden entirely when no image exists */}
           {product.image && (
             <div className={styles.heroImage}>
-              <div className={styles.heroImageWrap}>
+              <button type="button" className={`${styles.heroImageWrap} ${styles.zoomable}`} onClick={() => setZoomOpen(true)} aria-label="Uvećaj sliku">
                 <Image src={product.image} alt={product.name} fill sizes="(max-width:768px) 100vw, 50vw" style={{ objectFit: 'contain' }} priority />
-              </div>
+                <span className={styles.zoomIcon} aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="11" cy="11" r="7" /><path d="M21 21l-4.3-4.3M11 8v6M8 11h6" />
+                  </svg>
+                </span>
+              </button>
             </div>
           )}
 
         </div>
       </section>
 
-      {/* Technical specs */}
-      {Object.keys(specGroups).length > 0 && (
-        <section className={styles.specs}>
+      {/* Tehničke specifikacije i dokumentacija */}
+      {(Object.keys(specGroups).length > 0 || docs.length > 0) && (
+        <Reveal><section className={styles.specs}>
           <div className={styles.specsInner}>
-            <h2 className={styles.specsHeading}>Tehničke specifikacije</h2>
+            {docs.length > 0 ? (
+              <div className={styles.tabs} role="tablist">
+                {Object.keys(specGroups).length > 0 && (
+                  <button type="button" role="tab" aria-selected={tab === 'specs'}
+                    className={`${styles.tabBtn} ${tab === 'specs' ? styles.tabBtnActive : ''}`}
+                    onClick={() => setTab('specs')}>
+                    Tehničke specifikacije
+                  </button>
+                )}
+                <button type="button" role="tab" aria-selected={tab === 'docs' || Object.keys(specGroups).length === 0}
+                  className={`${styles.tabBtn} ${tab === 'docs' || Object.keys(specGroups).length === 0 ? styles.tabBtnActive : ''}`}
+                  onClick={() => setTab('docs')}>
+                  Dokumentacija <span className={styles.tabCount}>{docs.length}</span>
+                </button>
+              </div>
+            ) : (
+              <h2 className={styles.specsHeading}>Tehničke specifikacije</h2>
+            )}
 
-            {Object.entries(specGroups).map(([group, specs]) => (
+            {/* Dokumentacija */}
+            {docs.length > 0 && (tab === 'docs' || Object.keys(specGroups).length === 0) && (
+              <ul className={styles.docList}>
+                {docs.map((d) => (
+                  <li key={d.file}>
+                    <a href={d.url} target="_blank" rel="noopener noreferrer" className={styles.docItem}>
+                      <span className={styles.docIcon} aria-hidden="true">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" /><path d="M14 3v5h5M9 13h6M9 17h4" />
+                        </svg>
+                      </span>
+                      <span className={styles.docText}>
+                        <span className={styles.docTitle}>{d.title}</span>
+                        <span className={styles.docMeta}>{d.type}</span>
+                      </span>
+                      <span className={styles.docAction}>
+                        Otvori
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                          <path d="M12 4v12M6 10l6 6 6-6M5 20h14" />
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+
+            {/* Tehničke specifikacije */}
+            {Object.keys(specGroups).length > 0 && (tab === 'specs' || docs.length === 0) && Object.entries(specGroups).map(([group, specs]) => (
               <div key={group} className={styles.specGroup}>
                 {group !== 'Opšte' && (
                   <h3 className={styles.specGroupTitle}>{group.charAt(0).toUpperCase() + group.slice(1)}</h3>
@@ -178,12 +249,12 @@ export default function ProductDetail({ product, related = [] }: Props) {
               </div>
             ))}
           </div>
-        </section>
+        </section></Reveal>
       )}
 
       {/* Related products */}
       {related.length > 0 && (
-        <section className={styles.related}>
+        <Reveal><section className={styles.related}>
           <div className={styles.relatedInner}>
             <h2 className={styles.relatedHeading}>Slični proizvodi</h2>
             <div className={styles.relatedGrid}>
@@ -209,20 +280,29 @@ export default function ProductDetail({ product, related = [] }: Props) {
               ))}
             </div>
           </div>
-        </section>
+        </section></Reveal>
       )}
 
+
+      {/* Uvećana slika proizvoda */}
+      {zoomOpen && product.image && (
+        <div className={styles.lightbox} onClick={() => setZoomOpen(false)} role="dialog" aria-modal="true" aria-label={product.name}>
+          <button type="button" className={styles.lightboxClose} onClick={() => setZoomOpen(false)} aria-label="Zatvori">
+            <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+              <path d="M3 3l10 10M13 3L3 13" />
+            </svg>
+          </button>
+          <div className={styles.lightboxImage} onClick={(e) => e.stopPropagation()}>
+            <Image src={product.image} alt={product.name} fill sizes="90vw" style={{ objectFit: 'contain' }} />
+          </div>
+        </div>
+      )}
     </div>
   )
 }
 
-// Map SteelSoft category code back to the nav tab index
-function categoryToTab(code: string): number {
-  const map: Record<string, number> = {
-    '01KLK': 0, '03MLT': 0,
-    '02KKO': 1, '04VRF': 1, '08VNTZAV': 1,
-    '08VNTREK': 2,
-    '07KVVTGT': 3,
-  }
-  return map[code] ?? 4
+// Link na kategoriju proizvoda (tab u prodavnici ili sopstvena stranica, npr. Flex Fit)
+function categoryHrefFor(code: string): string {
+  const tab = NAV_CATEGORY_MAP.findIndex((codes: string[]) => codes.includes(code))
+  return tab >= 0 ? categoryHref(tab) : '/shop'
 }

@@ -67,7 +67,7 @@ export default function WeRecommend({ categoryStats }: Props) {
   const cats = categoryStats.slice(0, 4)
 
   return (
-    <section className="py-10 sm:py-20 bg-brand-section">
+    <section className="py-10 sm:py-20 bg-[#FFFAFA]">
       <div className="max-w-site mx-auto px-4 sm:px-10">
         <h2 className="font-sans text-[22px] sm:text-[28px] font-black uppercase tracking-heading text-brand-text text-center mb-7 sm:mb-12">
           {t.weRecommend}

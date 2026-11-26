@@ -16,6 +16,7 @@ import { overrideImage, overrideRule } from '../lib/image-overrides.mjs'
 import { VIRTUAL_CATEGORY_NAMES } from '../lib/categories.mjs'
 import { catalogInfo, toSpecs } from '../lib/catalog-info.mjs'
 import { isCatalogProduct } from '../lib/product-filter.mjs'
+import { buildDocsMap } from '../lib/docs.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
@@ -40,7 +41,7 @@ try {
 } catch { /* .env.local is optional */ }
 
 // Config
-const STEELSOFT_BASE = 'http://mail.steelsoft.rs:51337'
+const STEELSOFT_BASE = process.env.STEELSOFT_BASE || 'http://mail.steelsoft.rs:51337'
 const STEELSOFT_USER = process.env.STEELSOFT_USER
 const STEELSOFT_PASS = process.env.STEELSOFT_PASS
 
@@ -90,11 +91,22 @@ console.log('\n[2/5] Fetching specs from SteelSoft…')
 const allSpecs = await fetchSteelSoft('/api/karakteristike/')
 console.log(`      ${allSpecs.length} specs`)
 
+// Dokumentacija nije obavezna - ako API ne odgovori, proizvodi idu bez nje
+let allDocs = []
+try {
+  console.log('\n      Fetching documents from SteelSoft…')
+  allDocs = await fetchSteelSoft('/api/dokumentacija/')
+  console.log(`      ${allDocs.length} documents`)
+} catch (err) {
+  console.error('      Documents skipped:', err.message ?? err)
+}
+
 console.log(`\n[3/5] Filtering VENTING catalogue products…`)
 // 2026 katalog = slike koje je klijent poslao. Pravilo je u product-filter.mjs:
 // VENTING + prava kategorija + pokriven katalog-slikom + (za-web ili novi 2026 model).
 const ventingRaw = allProducts.filter(isCatalogProduct)
 const ventingIds = new Set(ventingRaw.map((p) => p.acIdent))
+const docsMap = buildDocsMap(allDocs, ventingIds)
 console.log(`      ${ventingRaw.length} VENTING catalogue products`)
 
 console.log('\n[4/5] Building specs map…')
@@ -150,6 +162,7 @@ const products = ventingRaw.map((p) => {
   inverter: p.Inverter ?? '',
   // API za neke grupe ne vraća karakteristike - tada uzimamo one iz kataloga
   specs: apiSpecs.length > 0 ? apiSpecs : info ? toSpecs(info.specs) : [],
+  docs: docsMap.get(p.acIdent) ?? [],
   }
 })
 

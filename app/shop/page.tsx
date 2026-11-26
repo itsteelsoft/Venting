@@ -20,14 +20,18 @@ export const metadata: Metadata = {
   },
 }
 
-export default async function ShopPage() {
+export default async function ShopPage({ searchParams }: { searchParams: { tab?: string; page?: string } }) {
   const products = await getProducts()
+  const tab = parseInt(searchParams.tab ?? '', 10)
+  const initialTab = Number.isNaN(tab) ? -1 : tab
+  const pg = parseInt(searchParams.page ?? '', 10)
+  const initialPage = Number.isNaN(pg) || pg < 1 ? 1 : pg
 
   return (
     <>
       <Header />
       <main>
-        <ShopClient products={products} />
+            <ShopClient products={products} initialTab={initialTab} initialPage={initialPage} />
       </main>
       <Footer />
       <FloatingButtons />
